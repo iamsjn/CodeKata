@@ -1,6 +1,6 @@
-def merge(arr, start_index, mid_length, length):
-    left_length = mid_length - start_index + 1
-    right_length = length - mid_length
+def merge(arr, start_index, mid_index, end_index):
+    left_length = mid_index - start_index + 1
+    right_length = end_index - mid_index
 
     L = [0] * left_length
     R = [0] * right_length
@@ -9,7 +9,7 @@ def merge(arr, start_index, mid_length, length):
         L[i] = arr[start_index + i]
 
     for j in range(right_length):
-        R[j] = arr[mid_length + 1 + j]
+        R[j] = arr[mid_index + 1 + j]
 
     i = 0
     j = 0
@@ -34,12 +34,14 @@ def merge(arr, start_index, mid_length, length):
         k = k+1
 
 
-def merge_sort(arr, start_index, length):
-    if(start_index < length):
-        mid_length = start_index + (length - start_index)/2
+def merge_sort(arr, start_index, end_index):
+    if end_index <= 0:
+        return
+    if(start_index < end_index):
+        mid_length = start_index + (end_index - start_index)/2
         merge_sort(arr, start_index, mid_length)
-        merge_sort(arr, mid_length + 1, length)
-        merge(arr, start_index, mid_length, length)
+        merge_sort(arr, mid_length + 1, end_index)
+        merge(arr, start_index, mid_length, end_index)
 
 
 if __name__ == "__main__":
