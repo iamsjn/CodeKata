@@ -8,4 +8,4 @@ def bubble_sort(arr, n):
 
 if __name__ == "__main__":
     arr = [9, 15, 21, 34, 34, 3, 4, 5, 8]
-    bubble_sort(arr, len(arr))
+    bubble_sort(arr, len(arr))  
