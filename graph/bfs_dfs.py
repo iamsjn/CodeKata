@@ -4,7 +4,7 @@ class Node:
         self.next = next
 
 
-class Queue:
+class   Queue:
     def __init__(self):
         self.head = None
         self.last = None

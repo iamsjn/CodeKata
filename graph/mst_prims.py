@@ -1,7 +1,7 @@
 class AdjNode:
-    def __init__(self, data, neighbour=None, cost=None):
+    def __init__(self, data, neighbor=None, cost=None):
         self.data = data
-        self.neighbour = neighbour
+        self.neighbor = neighbor
         self.cost = cost
 
 
@@ -12,12 +12,12 @@ class Graph:
 
     def add_edge(self, src, dest, cost):
         adj = AdjNode(dest)
-        adj.neighbour = self.graph[src]
+        adj.neighbor = self.graph[src]
         adj.cost = cost
         self.graph[src] = adj
 
         adj = AdjNode(src)
-        adj.neighbour = self.graph[dest]
+        adj.neighbor = self.graph[dest]
         adj.cost = cost
         self.graph[dest] = adj
 
@@ -30,17 +30,17 @@ class Graph:
             if temp.cost < minimum_cost:
                 minimum_cost = temp.cost
                 minimum_cost_edge = temp
-            temp = temp.neighbour
+            temp = temp.neighbor
 
         return minimum_cost_edge
 
-    def print_prim_mst(self, start):
+    def print_prims_mst(self, start):
         mst = []
         mst.append(start)
         temp = self.graph[start]
-        
+
         while temp:
-            
+
             if temp.data not in mst:
                 mst.append(temp.data)
             else:
@@ -55,4 +55,4 @@ if __name__ == "__main__":
     graph.add_edge(3, 4, 31)
     graph.add_edge(3, 2, 51)
     # print(graph.get_minimum_cost_edge(1))
-    graph.print_prim_mst(2)
+    graph.print_prims_mst(2)
