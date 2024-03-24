@@ -1,0 +1,27 @@
+1. Recent product/project preparation
+2. Find target string permutation match among target string
+3. about my experience, challenges I face in my current role ... etc.
+4. leetcode 1395. Count Number of Team
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.glassdoor.com/Interview/Agoda-Software-Engineer-Interview-Questions-EI_IE461386.0,5_KO6,23.htm
+
+https://www.glassdoor.com/Interview/Agoda-Senior-Software-Engineer-Interview-Questions-EI_IE461386.0,5_KO6,30.htm
+
+https://www.glassdoor.com/Interview/Agoda-Full-Stack-Engineer-Interview-Questions-EI_IE461386.0,5_KO6,25.htm
+
+https://www.glassdoor.com/Interview/Agoda-Full-Stack-Developer-Interview-Questions-EI_IE461386.0,5_KO6,26.htm
+
+https://www.glassdoor.com/Interview/Agoda-Backend-Engineer-Interview-Questions-EI_IE461386.0,5_KO6,22.htm

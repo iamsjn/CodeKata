@@ -4,6 +4,7 @@ class Graph:
         self.size = size
         tempSize = self.size
 
+        #[[0 for x in range(cols_count)] for x in range(rows_count)]
         while tempSize > 0:
             self.adjMatrix.append([0 for i in range(self.size)])
             tempSize = tempSize - 1

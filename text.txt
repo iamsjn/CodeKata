@@ -1,0 +1,39 @@
+- have fun trying out the latest topics
+- GitHub, Codeproject, Golem and Heise are your daily reading material
+- Fascination for programming languages and technologies
+- Continuous improvement is the goal.
+- Continuously expand your technical toolset and knowledge and of the state of the art by investigating third-party tools and open-source libraries, reading papers, forming connections with academic and industry research networks, and attending conferences when relevant.
+- You are a passionate learner who isn’t afraid of new tools and technologies.
+
+- Build and own features and take them from design all the way to production
+- Shape the evolution of a complex system
+- Design and develop high quality, scalable and stable web applications and/or back-end services
+- Develop client-side applications that connect with web services
+- Develop back-end web services
+- Follow Tesla’s high standards for security-best practices in all development
+- Partner closely with security team for code analysis and design reviews
+- Work closely with product managers, QA engineers, build and release team and own the solution from development to production
+- Understanding of distributed systems and a good understanding of its fundamentals
+- Solr, GraphQL
+- Productively ask questions and identify ambiguity in requirements, seeking the information and knowledge required to complete their work.
+- Work with all the engineers across the squads to ensure that our front-end code reflects our high standards of quality and practice.
+- Excellent coding skills with a high bar for quality and scalability
+- Support and troubleshoot issues (process & system), identify root cause, and proactively implement sustainable corrective actions
+- You will work closely with the product owners and design team to define feature requirements and deliver the product that supports the business and improves the customer experience.
+- You will write high quality, and testable applications that support rapid delivery via continuous integration, delivery, and automated deployments.
+- You will actively participate in agile team activities such as providing input into story sizing, backlog grooming, and release planning.
+- You will collaborate with colleagues from other disciplines to define the technology objective and explore solution possibilities.
+- You should be proficient in microservices architecture and backend for frontend patterns.
+- You are a polyglot software development engineer, and would like to make a dent in the universe. You would love to work on a real time distributed system, and to run services at scale.
+- Provide input on resourcing to address critical bottlenecks and onboard new developers on frameworks and engineering processes.
+- Manage technical debt, including vulnerability scanning and platform upgrades.
+- Ability to work in large, collaborative teams, across multiple geographical regions to achieve organizational goals
+- Mentor junior members of the team and show them how you can ship beautiful code in a blink ;)
+- BDD/TDD practices, 
+- Participating in all aspects of software development activities, including design, automation, code review, manual testing, bug fixing, and test plan documentation.
+- Participate in story mapping, backlog grooming, daily stand-ups, retrospectives, and sprint reviews on a two-week cadence.
+- Review each other’s work and hold team members accountable for high code quality standards.
+- Deliver regular increments of potentially shippable functionality on time with high quality.
+
+- Knowledge of search solutions such as Lucene, Solr, or ElasticSearch
+- Familiarity with NX monorepo tooling preferred.

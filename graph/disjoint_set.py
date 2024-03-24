@@ -36,7 +36,7 @@ class DisjointSet:
             node1_parent.parent = node2_parent
 
     def find_set_representative(self, node: Node) -> Node:
-        # Findisjoint_set the set representative
+        # Find disjoint_set the set representative
         parent = node.parent
         if node.value == parent.value:
             return node
